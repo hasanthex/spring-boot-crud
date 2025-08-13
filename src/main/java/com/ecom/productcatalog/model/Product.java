@@ -29,4 +29,11 @@ public class Product {
     public void setB2c_price(Double b2c_price){ this.b2c_price = b2c_price; }
     public void setLast_price(Double last_price){ this.last_price = last_price; }
     public void setCategory(Category category){ this.category = category; }
+
+    // getters
+    public String getName(){ return this.product_name; }
+    public String getImages(){ return this.images; }
+    public Double getB2b_price(){ return this.b2b_price; }
+    public Double getLast_price(){ return this.last_price; }
+    public Double getB2c_price(){ return this.b2c_price; }
 }
